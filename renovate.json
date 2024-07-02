@@ -3,7 +3,7 @@
     "customManagers": [
     {
       "customType": "regex",
-      "fileMatch": ["*image.json$"],
+      "fileMatch": [".*image.json$"],
       "matchStrings": ["ghcr.io/renovatebot/renovate:(?<currentValue>.*?)\""],
       "depNameTemplate": "ghcr.io/renovatebot/renovate",
       "datasourceTemplate": "docker"
